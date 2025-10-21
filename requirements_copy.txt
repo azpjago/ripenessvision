@@ -1,0 +1,30 @@
+
+---
+
+## 🧰 Tech Stack
+
+| Category | Tools |
+|-----------|--------|
+| **Language** | Python 3.10+ |
+| **Data Collection** | SerpAPI, Requests |
+| **Modeling** | TensorFlow, Keras, EfficientNetB0 |
+| **Visualization** | Matplotlib, Grad-CAM |
+| **Deployment** | Streamlit / FastAPI |
+| **Environment** | Jupyter Notebook / VSCode |
+
+---
+python -m venv venv
+# atau pastikan pakai python versi khusus, misalnya 3.11
+python3.11 -m venv venv atau py -3.11 -m venv venv
+# lalu jangan lupa diactivate boy
+venv\Scripts\activate
+pip install tensorflow keras serpapi requests pillow streamlit
+pip install -r requirements.txt
+pip freeze > requirements.txt
+
+# Jika menggunakan versi python tertentu, misalnya python 3.11 maka jangan klik play (>)
+# Tapi harus pilih interpreter, ctrl+shift+p lalu select interpreter python 
+# contoh jalur interpreter nya ...\ripenessvision\venv\Scripts\python.exe
+# Kalo tidak ada di daftar, maka cari secara manual seperti berikut
+# C:\Users\Admin\Documents\Projek AI\ripeness\ripenessvision\venv\Scripts\python.exe
+
