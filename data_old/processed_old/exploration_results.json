@@ -1,0 +1,22 @@
+{
+  "total_images": 794,
+  "class_distribution": {
+    "tomato_overripe": 96,
+    "banana_unripe": 95,
+    "banana_ripe": 94,
+    "mango_unripe": 89,
+    "tomato_unripe": 87,
+    "banana_overripe": 86,
+    "mango_overripe": 85,
+    "tomato_ripe": 83,
+    "mango_ripe": 79
+  },
+  "average_width": 863.162091503268,
+  "average_height": 727.7437908496732,
+  "corrupted_images": 29,
+  "split_distribution": {
+    "train": 555,
+    "validation": 119,
+    "test": 120
+  }
+}
